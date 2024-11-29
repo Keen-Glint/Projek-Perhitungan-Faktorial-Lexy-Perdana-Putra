@@ -35,7 +35,7 @@ int main(int argc, const char *argv[]) {
         do {
             scanf("%lld", &num);
             //mengecek apakah angka yang diinput valid atau tidak
-            if (num > 22 ) printf("Angka yang dimasukkan tidak valid, masukkan ulang angka yang baru ( 0 - 20 ) : ");
+            if (num > 20 ) printf("Angka yang dimasukkan tidak valid, masukkan ulang angka yang baru ( 0 - 20 ) : ");
             else {
                 //menampilkan langkah langkah dan hasil dari faktorialnya
                 printf("\nHasil dari "); 
@@ -43,7 +43,7 @@ int main(int argc, const char *argv[]) {
                 show(num);
                 printf(" = %lld \n", faktorial(num));
             }
-        } while (num > 22);
+        } while (num > 20);
         
         printf("\nIngin mencari faktorial lain? (y/n) : ");
         scanf(" %c", &pilihan);
