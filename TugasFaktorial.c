@@ -24,8 +24,10 @@ long long int show(long long int num) {
 int main(int argc, const char *argv[]) {    
     long long int num;        //deklarasi variabel
     char pilihan;
+
+    printf("\nSelamat datang di program perhitungan faktorial!!!\n");
         
-        //perulangan agar program dapat diulang berkali kali
+    //perulangan agar program dapat diulang berkali kali
     do {
         printf("Masukkan angka yang akan dicari faktorialnya ( 0 - 20 ): ");
 
@@ -49,7 +51,7 @@ int main(int argc, const char *argv[]) {
         //mengecek apakah user ingin mengulang program atau tidak
     } while (pilihan == 'y' || pilihan == 'Y');  
 
-    printf("\nTerimakasih telah menggunakan program ini");
+    printf("\nTerimakasih telah menggunakan program ini\n");
 
     return 0;
 }
